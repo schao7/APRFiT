@@ -16,7 +16,7 @@ We provide [datasets](https://figshare.com/s/4e679d03b0bd8cd27a69) and [pre-trai
 - Download the [dataset](https://figshare.com/s/4e679d03b0bd8cd27a69) and place it in the following folder
 	- `mkdir ./APRFiT4CodeT5/data`
 - Go to `sh` folder, set the `WORKDIR` in `exp_with_args.sh` to be your cloned repository path.
-- Download pre-trained model [here](https://figshare.com/s/627164c54ea31fa6d577), and pass its path to load at [here](https://github.com/schao7/APRFiT/blob/0dc13ef84081b63570e5575566c722177ddc5ad4/APRFiT4CodeT5/run_apr.py#L367), e.g., `file = "APRFiT4CodeT5/codet5_bfp_small.bin"`
+- Download pre-trained model [here](https://figshare.com/s/627164c54ea31fa6d577), and pass its path to load at [here](https://github.com/schao7/APRFiT/blob/297fb9cbc51667d20dcab39b4fcacfaa709933c5/APRFiT4CodeT5/run_apr.py#L366), e.g., `file = "APRFiT4CodeT5/codet5_bfp_small.bin"`
 - Evaluation
 	- For Bugs2Fix small dataset, please use `codet5_bfp_small.bin`, and run the program: `python run_aprfit.py --model_tag codet5_base --task refine --sub_task small`
 	- For Bugs2Fix medium dataset, please use `codet5_bfp_medium.bin`, and run the program: `python run_aprfit.py --model_tag codet5_base --task refine --sub_task medium`
@@ -24,7 +24,7 @@ We provide [datasets](https://figshare.com/s/4e679d03b0bd8cd27a69) and [pre-trai
 ## Running GraphCodeBERT Experiments of APRFiT
 - Download the [dataset](https://figshare.com/s/4e679d03b0bd8cd27a69) and place it in this folder.
 	- `mkdir ./APRFiT4GraphCodeBERT/data`
-- Download pre-trained model  [here](https://figshare.com/s/627164c54ea31fa6d577), and pass its path to load at [here](https://github.com/schao7/APRFiT/blob/0dc13ef84081b63570e5575566c722177ddc5ad4/APRFiT4GraphCodeBERT/run_aprfit.sh#L8), e.g., `file = "APRFiT4GraphCodeBERT/graphcodebert_bfp_small.bin"`
+- Download pre-trained model  [here](https://figshare.com/s/627164c54ea31fa6d577), and pass its path to load at [here](https://github.com/schao7/APRFiT/blob/297fb9cbc51667d20dcab39b4fcacfaa709933c5/APRFiT4GraphCodeBERT/run_aprfit.sh#L9), e.g., `file = "APRFiT4GraphCodeBERT/graphcodebert_bfp_small.bin"`
 - Evaluation
 	- For Bugs2Fix small dataset, please use `graphcodebert_bfp_small.bin`, change the `scale` variables value in script files to `small` and run the program: `bash run_aprfit.sh`
 	- For Bugs2Fix medium dataset, please use `graphcodebert_bfp_medium.bin`, change the `scale` variables value in script files to `medium`, and run the program: `bash run_aprfit.sh`
