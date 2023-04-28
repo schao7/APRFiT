@@ -40,4 +40,4 @@ cd ..
 ```
 
 # Acknowledgement
-The implementation of this repo relies on resources from [GraphCodeBERT](https://github.com/microsoft/CodeBERT/tree/master/GraphCodeBERT/refinement) and [CodeT5](https://github.com/salesforce/CodeT5) . The code is implemented using PyTorch. We thank the original authors for their open-sourcing.
+The implementation of this repo relies on resources from [GraphCodeBERT](https://github.com/microsoft/CodeBERT/tree/master/GraphCodeBERT/refinement) and [CodeT5](https://github.com/salesforce/CodeT5) . We thank the original authors for their open-sourcing.
